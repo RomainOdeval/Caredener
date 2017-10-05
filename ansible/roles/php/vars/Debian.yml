@@ -3,7 +3,9 @@
 __php_packages:
   - php-common
   - php-cli
+  - php-dev
   - php-fpm
+  - libpcre3-dev
   - php-gd
   - php-curl
   - php-imap
