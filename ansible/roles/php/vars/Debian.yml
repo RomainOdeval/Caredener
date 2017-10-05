@@ -1,19 +1,18 @@
 ---
-# On Debian, php-* install directly php v7.x
+# On Debian, php-* install directly php v7.x now
 __php_packages:
-  - php7.0-common
-  - php7.0-cli
-  - php7.0-dev
-  - php7.0-fpm
-  - libpcre3-dev
-  - php7.0-gd
-  - php7.0-curl
-  - php7.0-imap
-  - php7.0-json
-  - php7.0-opcache
-  - php7.0-xml
-  - php7.0-mbstring
-  - php7.0-mysql
+  - php-common
+  - php-cli
+  - php-fpm
+  - php-gd
+  - php-curl
+  - php-imap
+  - php-json
+  - php-opcache
+  - php-xml
+  - php-mbstring
+  - php-mysql
+  - php-ldap
   - php-apcu
 __php_webserver_daemon: "apache2"
 
